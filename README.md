@@ -1,5 +1,5 @@
 # 7---Knowledge-base-Search-Engine
-# 🔍 Knowledge Base Search Engine
+#  Knowledge Base Search Engine
 
 A production-ready Retrieval-Augmented Generation (RAG) system that enables intelligent querying across multiple documents using local AI models.
 
@@ -7,7 +7,7 @@ A production-ready Retrieval-Augmented Generation (RAG) system that enables inte
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -20,7 +20,7 @@ A production-ready Retrieval-Augmented Generation (RAG) system that enables inte
 - [Project Structure](#project-structure)
 - [Future Enhancements](#future-enhancements)
 
-## 🎯 Overview
+## Overview
 
 This Knowledge Base Search Engine implements a Retrieval-Augmented Generation (RAG) pipeline that allows users to:
 - Upload multiple PDF and text documents
@@ -30,53 +30,21 @@ This Knowledge Base Search Engine implements a Retrieval-Augmented Generation (R
 
 **Key Innovation**: Uses local models (Ollama + Sentence Transformers) for complete privacy, no API costs, and unlimited usage.
 
-## ✨ Features
+##  Features
 
-- **📁 Multi-Document Support**: Upload PDF and TXT files
-- **🔍 Semantic Search**: Vector-based retrieval using embeddings
-- **🤖 AI-Powered Answers**: Llama 3.2 via Ollama for response synthesis
-- **🎨 Modern UI**: Clean, responsive web interface with drag-and-drop
-- **⚡ Fast & Local**: No API dependencies, runs entirely on your machine
-- **🔒 Privacy-First**: Documents never leave your system
-- **📊 Real-time Feedback**: Upload progress and processing status
-- **🛡️ Error Handling**: Graceful handling of edge cases
+- **Multi-Document Support**: Upload PDF and TXT files
+- **Semantic Search**: Vector-based retrieval using embeddings
+- **AI-Powered Answers**: Llama 3.2 via Ollama for response synthesis
+- **Modern UI**: Clean, responsive web interface with drag-and-drop
+- **Fast & Local**: No API dependencies, runs entirely on your machine
+- **Privacy-First**: Documents never leave your system
+- **Real-time Feedback**: Upload progress and processing status
+- **Error Handling**: Graceful handling of edge cases
 
-## 🏗️ Architecture
+## Architecture
 
-```
-┌─────────────┐
-│   User      │
-│  Interface  │
-└──────┬──────┘
-       │
-       ▼
-┌─────────────────────────────────────┐
-│         FastAPI Backend             │
-│  ┌─────────────────────────────┐   │
-│  │  Document Ingestion         │   │
-│  │  • PDF/TXT Extraction       │   │
-│  │  • Text Chunking (1000c)    │   │
-│  │  • Overlap (200c)           │   │
-│  └─────────────────────────────┘   │
-│               ↓                     │
-│  ┌─────────────────────────────┐   │
-│  │  Embedding Generation       │   │
-│  │  • sentence-transformers    │   │
-│  │  • all-MiniLM-L6-v2        │   │
-│  └─────────────────────────────┘   │
-│               ↓                     │
-│  ┌─────────────────────────────┐   │
-│  │  Vector Store (ChromaDB)    │   │
-│  │  • Similarity Search        │   │
-│  │  • Top-K Retrieval (k=4)    │   │
-│  └─────────────────────────────┘   │
-│               ↓                     │
-│  ┌─────────────────────────────┐   │
-│  │  LLM Synthesis              │   │
-│  │  • Ollama (Llama 3.2)       │   │
-│  │  • Context-Aware Response   │   │
-│  └─────────────────────────────┘   │
-└─────────────────────────────────────┘
+```<img width="1813" height="935" alt="diagram-export-10-17-2025-9_19_43-AM" src="https://github.com/user-attachments/assets/aadf9047-e1b0-4e28-971a-9f65e5ed0d6d" />
+
 ```
 
 ### RAG Workflow
@@ -139,7 +107,7 @@ This Knowledge Base Search Engine implements a Retrieval-Augmented Generation (R
 
 📹 [Watch Demo Video](link-to-your-video)
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 
