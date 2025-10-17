@@ -43,8 +43,8 @@ This Knowledge Base Search Engine implements a Retrieval-Augmented Generation (R
 
 ## Architecture
 
-```<img width="1813" height="935" alt="diagram-export-10-17-2025-9_19_43-AM" src="https://github.com/user-attachments/assets/aadf9047-e1b0-4e28-971a-9f65e5ed0d6d" />
-
+```
+https://github.com/marthand-2004/7---Knowledge-base-Search-Engine/blob/main/diagram-export-10-17-2025-9_19_43-AM.png
 ```
 
 ### RAG Workflow
