@@ -72,40 +72,19 @@ https://github.com/marthand-2004/7---Knowledge-base-Search-Engine/blob/main/diag
 
 **Upload Interface**
 ```
-┌─────────────────────────────────────┐
-│  📁 Upload Documents                │
-│  ┌─────────────────────────────┐   │
-│  │   📄 Drag & Drop Files      │   │
-│  │   or Click to Browse        │   │
-│  │   Supports PDF and TXT      │   │
-│  └─────────────────────────────┘   │
-│                                     │
-│  📄 document1.pdf (234 KB)          │
-│  📄 document2.pdf (156 KB)          │
-│                                     │
-│     [Upload & Process]              │
-└─────────────────────────────────────┘
+<img width="1919" height="1007" alt="image" src="https://github.com/user-attachments/assets/3246bbde-3d34-414b-9639-aa1e40cf721b" />
+
 ```
 
 **Query Interface**
 ```
-┌─────────────────────────────────────┐
-│  💬 Ask Questions                   │
-│  ┌─────────────────────────────┐   │
-│  │ What are the main topics?   │   │
-│  └─────────────────────────────┘   │
-│     [Search]                        │
-│                                     │
-│  📝 Answer:                         │
-│  The documents discuss three main   │
-│  topics: machine learning, data     │
-│  processing, and model deployment...│
-└─────────────────────────────────────┘
+<img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/72494552-594a-456d-8820-3f096ae7689f" />
+
 ```
 
 ### Demo Video
 
-📹 [Watch Demo Video](link-to-your-video)
+📹 [Watch Demo Video](https://docs.google.com/videos/d/1uCxipPaSL_ghYwtEx5AlUhFgTpvwdaHsRqiZFZeWk7A/edit?usp=sharing)
 
 ##  Installation
 
@@ -503,10 +482,9 @@ Backend already has CORS enabled. Ensure:
 
 ## 👤 Author
 
-**[Your Name]**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+**[Marthand Bhargav]**
+
+- Email: jalasutrambhargav@gmail.com
 
 ## 🙏 Acknowledgments
 
@@ -533,15 +511,4 @@ This is an assignment project, but suggestions are welcome!
 
 **⭐ If you found this project helpful, please give it a star!**
 
----
 
-## 📞 Support
-
-For questions or issues:
-1. Check [Troubleshooting](#troubleshooting)
-2. Open an issue on GitHub
-3. Contact: your.email@example.com
-
----
-
-Made with ❤️ for [Company Name] Placement Assignment
